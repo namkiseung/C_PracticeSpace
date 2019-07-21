@@ -1,0 +1,24 @@
+﻿빌드 시작: 2019-07-21 오후 2:24:48
+     1>2 노드의 "C:\imsi\processinfo\processinfo\processinfo.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\processinfo.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt processinfo.cpp
+         processinfo.cpp
+     1>c:\imsi\processinfo\processinfo\processinfo.cpp(24): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1270): note: 'scanf' 선언을 참조하십시오.
+     1>c:\imsi\processinfo\processinfo\processinfo.cpp(37): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: 'strcpy' 선언을 참조하십시오.
+     1>c:\imsi\processinfo\processinfo\processinfo.cpp(65): warning C4477: 'sprintf' : format string '%ls' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'CHAR *'
+         c:\imsi\processinfo\processinfo\processinfo.cpp(65): note: consider using '%hs' in the format string
+         c:\imsi\processinfo\processinfo\processinfo.cpp(65): note: consider using '%s' in the format string
+         c:\imsi\processinfo\processinfo\processinfo.cpp(65): note: consider using '%Ts' in the format string
+     1>c:\imsi\processinfo\processinfo\processinfo.cpp(65): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: 'sprintf' 선언을 참조하십시오.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\imsi\processinfo\Debug\processinfo.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\imsi\processinfo\Debug\processinfo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\imsi\processinfo\Debug\processinfo.lib" /MACHINE:X86 Debug\processinfo.obj
+         Debug\stdafx.obj
+         processinfo.vcxproj -> C:\imsi\processinfo\Debug\processinfo.exe
+     1>"C:\imsi\processinfo\processinfo\processinfo.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:00.85
